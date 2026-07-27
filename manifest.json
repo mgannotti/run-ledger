@@ -30,5 +30,5 @@
   "source_pack": "scout-agentops-kit",
   "template": "templates/run-record.example.json",
   "tests": "tests/test_run_ledger.py",
-  "version": "1.1.2"
+  "version": "1.2.0"
 }
