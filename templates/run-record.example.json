@@ -1,0 +1,11 @@
+{
+  "run_id": "run-2026-07-27-0001",
+  "automation": "Deep Research Queue",
+  "trigger": "schedule",
+  "started_at": "2026-07-27T12:00:00Z",
+  "ended_at": "2026-07-27T12:00:14Z",
+  "status": "success",
+  "exit_code": 0,
+  "artifacts": ["out/permission-lens/permission-lens.json"],
+  "notes": "Fabricated example record."
+}

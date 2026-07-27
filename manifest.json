@@ -1,0 +1,34 @@
+{
+  "cloud_writes": false,
+  "description": "Append to and verify a tamper-evident, hash-chained ledger of automation runs.",
+  "distribution": "standalone",
+  "engine": "scripts/run_ledger.py",
+  "entrypoint": "SKILL.md",
+  "exit_codes": {
+    "0": "pass",
+    "1": "review",
+    "2": "block",
+    "3": "evidence error"
+  },
+  "input": "A JSONL ledger path, optionally with a run record to append.",
+  "name": "run-ledger",
+  "network_required": false,
+  "outputs": [
+    "run-ledger.json",
+    "run-ledger.md",
+    "run-ledger.html",
+    "<ledger>.jsonl"
+  ],
+  "runtime": {
+    "python": ">=3.10",
+    "third_party_packages": []
+  },
+  "schemas": {
+    "output": "references/report-schema.json"
+  },
+  "sends_messages": false,
+  "source_pack": "scout-agentops-kit",
+  "template": "templates/run-record.example.json",
+  "tests": "tests/test_run_ledger.py",
+  "version": "1.0.0"
+}

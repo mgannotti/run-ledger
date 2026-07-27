@@ -1,0 +1,28 @@
+slug: run-ledger
+title: Run Ledger
+summary: Append to and verify a tamper-evident, hash-chained ledger of automation runs.
+version: 1.0.0
+public_safe: true
+type: skill
+category: agent-operations
+preview: screenshots/preview.png
+
+author:
+  alias: mgann
+  name: Michael Gannotti
+  role: SE
+  discipline: Principal Solution Engineer
+  segment: Any
+  ou: Scout AgentOps
+
+roles: [Any]
+purpose: [automation, reports]
+personas: [technical]
+outputs: [markdown, html-dashboard, json]
+requires: [python]
+setup: setup.md
+tags: [audit, integrity, hash-chain, reliability, observability]
+capabilities: [reads-files, writes-files, shell]
+network_required: false
+cloud_writes: false
+source_pack: scout-agentops-kit
