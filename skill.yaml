@@ -1,7 +1,7 @@
 slug: run-ledger
 title: Run Ledger
 summary: Append to and verify a tamper-evident, hash-chained ledger of automation runs.
-version: 1.1.0
+version: 1.1.1
 public_safe: true
 type: skill
 category: agent-operations
